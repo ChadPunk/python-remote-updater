@@ -2,7 +2,7 @@ import requests
 import yaml
 
 APP_URL = "https://raw.githubusercontent.com/ChadPunk/python-remote-updater/refs/heads/main/settings.yaml"
-CURRENT_VERSION = "1.0.0"
+CURRENT_VERSION = "1.0.1"
 
 def updateApplication():
     print('Running update!')
